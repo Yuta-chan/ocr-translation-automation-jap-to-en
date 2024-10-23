@@ -11,7 +11,7 @@ This repository provides a Python-based automation tool that extracts annotated 
 ## File Structure
 
 - `general_functions.py`: Utility functions used throughout the project.
-- `annotate_image.py`: Script that uses Google Cloud Vision API to annotate and extract text from PDFs.
+- `annotate_pdf.py`: Script that uses Google Cloud Vision API to annotate and extract text from PDFs.
 - `translate.py`: Script that translates the extracted text into the target language using Google Cloud Translation API.
 - `annotate_to_translate.py`: Combines the OCR and translation processes into a single workflow.
 - `requirements.txt`: Lists the required dependencies to run the project.
@@ -48,10 +48,10 @@ The main process involves two parts:
 
 Here’s how to run the two processes separately:
 
-- Annotate image:
+- Annotate pdf:
 
 ```bash
-python annotate_image.py "path-to-your-pdf"
+python annotate_pdf.py "path-to-your-pdf"
 ```
 - Translate Text:
 
