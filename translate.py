@@ -1,4 +1,4 @@
-from pdf_annotator import *
+from annotate_pdf import *
 from google.cloud import translate_v3
 import html
 
