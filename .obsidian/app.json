@@ -1,0 +1,11 @@
+{
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true,
+  "propertiesInDocument": "source",
+  "showLineNumber": true,
+  "vimMode": false,
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./"
+}
