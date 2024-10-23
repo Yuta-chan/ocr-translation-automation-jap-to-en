@@ -23,7 +23,12 @@ This repository provides a Python-based automation tool that extracts annotated 
    git clone https://github.com/yourusername/ocr-translation-automation.git
    cd ocr-translation-automation
 2. **Install the required dependencies**: Make sure you have Python 3 installed. Then install the dependencies:
-3. **Set up Google Cloud credentials**:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Set up Google Cloud credentials**:
 
 - Set up your Google Cloud project and enable the Vision API and Translation API.
 - Download your service account key in JSON format and set the GOOGLE_APPLICATION_CREDENTIALS environment variable:
