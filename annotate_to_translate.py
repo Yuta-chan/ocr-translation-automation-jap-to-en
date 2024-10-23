@@ -1,6 +1,6 @@
 from translate import *
 from annotate_pdf import *
-
+import os
 # Set the path to your service account credentials JSON
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/path/to/your/service-account-file.json"
 
