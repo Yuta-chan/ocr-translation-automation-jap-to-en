@@ -1,6 +1,9 @@
 from translate import *
 from annotate_pdf import *
 
+# Set the path to your service account credentials JSON
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/path/to/your/service-account-file.json"
+
 def give_pdf_file():
     try:
         pdf_file = str(input("Which PDF file would you like to extract text from? "))
