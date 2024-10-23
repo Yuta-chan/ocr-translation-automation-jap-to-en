@@ -1,4 +1,4 @@
-# OCR and Translation Automation
+# OCR and Translation Automation with Google Cloud: Jap to English!
 
 This repository provides a Python-based automation tool that extracts annotated text from PDF files using the Google Cloud Vision API, translates it using the Google Cloud Translation API, and saves the translated output to a file. The scripts automate the process of handling PDF documents, text extraction, and translation in an efficient workflow.
 
