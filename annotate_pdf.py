@@ -40,5 +40,12 @@ def sample_batch_annotate_files(pdf_file):
                 extracted_text += annotation.full_text_annotation.text + "\n"
 
     # Now the `extracted_text` variable contains the full text from the PDF annotations
+    output_file_path = "nontranslated_text_output.txt"  # Specify your desired file name
+    with open(output_file_path, "w", encoding="utf-8") as text_file:
+      text_file.write(extracted_text)
+        
+    # Save the non translated text to a file
+    print(f"Non Translated text saved to {output_file_path}")
+    
     # You can either return it or store it for later use in translation
     return extracted_text
